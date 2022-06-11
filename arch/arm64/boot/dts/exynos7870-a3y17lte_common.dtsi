@@ -752,14 +752,15 @@
 		non_hw_trigger_levels = <7>;
 
 		/* Throttling Level */
+		
 		trigger_levels_0 = <76>;
-		trigger_levels_1 = <81>;
-		trigger_levels_2 = <86>;
-		trigger_levels_3 = <91>;
-		trigger_levels_4 = <96>;
-		trigger_levels_5 = <101>;
-		trigger_levels_6 = <111>;
-		trigger_levels_7 = <115>;
+		trigger_levels_1 = <76>;
+		trigger_levels_2 = <76>;
+		trigger_levels_3 = <81>;
+		trigger_levels_4 = <86>;
+		trigger_levels_5 = <91>;
+		trigger_levels_6 = <96>;
+		trigger_levels_7 = <101>;
 
 		trigger_enable_0 = <ENABLE>;
 		trigger_enable_1 = <ENABLE>;
@@ -789,12 +790,15 @@
 		freq_clip_max_5 = <546000>;
 		freq_clip_max_6 = <449000>;
 		freq_clip_max_7 = <343000>;	
-
+		
 		cooling_level_0 = <76>;
-		cooling_level_1 = <81>;
-		cooling_level_2 = <86>;
-		cooling_level_3 = <91>;
-		cooling_level_4 = <96>;
+		cooling_level_1 = <76>;
+		cooling_level_2 = <76>;
+		cooling_level_3 = <81>;
+		cooling_level_4 = <86>;
+		cooling_level_5 = <91>;
+		cooling_level_6 = <96>;
+		cooling_level_7 = <96>;
 	};
 
 	tmuctrl_1: tmuctrl_CPUCL1@10130000 {
@@ -806,13 +810,13 @@
 
 		/* Throttling Level */
 		trigger_levels_0 = <76>;
-		trigger_levels_1 = <81>;
-		trigger_levels_2 = <86>;
-		trigger_levels_3 = <91>;
-		trigger_levels_4 = <96>;
-		trigger_levels_5 = <101>;
-		trigger_levels_6 = <111>;
-		trigger_levels_7 = <115>;
+		trigger_levels_1 = <76>;
+		trigger_levels_2 = <76>;
+		trigger_levels_3 = <81>;
+		trigger_levels_4 = <86>;
+		trigger_levels_5 = <91>;
+		trigger_levels_6 = <96>;
+		trigger_levels_7 = <101>;
 
 		trigger_enable_0 = <ENABLE>;
 		trigger_enable_1 = <ENABLE>;
@@ -844,10 +848,13 @@
 		freq_clip_max_7 = <343000>;	
 
 		cooling_level_0 = <76>;
-		cooling_level_1 = <81>;
-		cooling_level_2 = <86>;
-		cooling_level_3 = <91>;
-		cooling_level_4 = <96>;
+		cooling_level_1 = <76>;
+		cooling_level_2 = <76>;
+		cooling_level_3 = <81>;
+		cooling_level_4 = <86>;
+		cooling_level_5 = <91>;
+		cooling_level_6 = <96>;
+		cooling_level_7 = <96>;
 
 		hotplug_enable = <1>;
 		hotplug_in_threshold = <91>;
@@ -863,13 +870,13 @@
 
 		/* Throttling Level */
 		trigger_levels_0 = <76>;
-		trigger_levels_1 = <81>;
-		trigger_levels_2 = <86>;
-		trigger_levels_3 = <91>;
-		trigger_levels_4 = <96>;
-		trigger_levels_5 = <101>;
-		trigger_levels_6 = <111>;
-		trigger_levels_7 = <115>;
+		trigger_levels_1 = <76>;
+		trigger_levels_2 = <76>;
+		trigger_levels_3 = <81>;
+		trigger_levels_4 = <86>;
+		trigger_levels_5 = <91>;
+		trigger_levels_6 = <96>;
+		trigger_levels_7 = <101>;
 
 		trigger_enable_0 = <ENABLE>;
 		trigger_enable_1 = <ENABLE>;
@@ -899,14 +906,14 @@
 		freq_clip_max_5 = <160000>;
 
 		cooling_level_0 = <76>;
-		cooling_level_1 = <81>;
-		cooling_level_2 = <86>;
-		cooling_level_3 = <91>;
-		cooling_level_4 = <96>;
-		cooling_level_5 = <101>;
+		cooling_level_1 = <76>;
+		cooling_level_2 = <76>;
+		cooling_level_3 = <81>;
+		cooling_level_4 = <86>;
+		cooling_level_5 = <91>;
 
 		/* gpu cooling related table */
-		gpu_idx_num = <6>;
+		gpu_idx_num = <8>;
 		/* flags, driver_data(index), frequency */
 		gpu_cooling_table = < 0 0 1146000
 				      0 1 1001000
